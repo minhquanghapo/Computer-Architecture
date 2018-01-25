@@ -1,4 +1,4 @@
-#Report Week 1
+# Report Week 1
 ### I. Assignment 1
 #### Chương trình
 ```
@@ -138,7 +138,7 @@ add $s0, $s0, $t2 # $s0 = $s0 + $t2 = 2X + Y
 - Lệnh `add $s0, $s0, $t2`
 > Thanh ghi $s0 lưu giá trị `0x00000009` các thanh ghi khác không thay đổi.
 
-** => Kết quả ra đúng so với yêu cầu. (2*5 - 1 = 9) **
+**=> Kết quả ra đúng so với yêu cầu. (2*5 - 1 = 9) **
 
 #### Kiểm tra mã máy
 - Lệnh `addi`: `addi $t1, $zero, 5` và `addi $t2, $zero`
@@ -153,7 +153,7 @@ operand/offset : 0000 0000 0000 0101 (=5)
 
 
 
-** => Kết quả đúng khuôn dạng. **
+**=> Kết quả đúng khuôn dạng.**
 
 - Lệnh `add`: `add $s0, $t1, $t1` và `add $s0, $s0, $t2`
 > Vì 2 lệnh tương đương nên ta chỉ xét một lệnh: `add $s0, $t1, $t1` 
@@ -167,7 +167,7 @@ rd: 1000 0
 sh: 000 00
 fn: 10 0000
 
-** => Kết quả đúng **
+**=> Kết quả đúng**
 
 ### V. Phép nhân.
 
