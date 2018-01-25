@@ -1,6 +1,6 @@
 #Report Week 1
 ### I. Assignment 1
-- Chương trình
+#### Chương trình
 ```
 #Laboratory Exercise 2, Assignment 1
 .text
@@ -145,12 +145,13 @@ add $s0, $s0, $t2 # $s0 = $s0 + $t2 = 2X + Y
 > Vì 2 lệnh tương đương nên ta chỉ xét một lệnh: `addi $t1, $zero, 5` 
 >> Mã máy: `0010 0000 0000 1001 0000 0000 0000 0101`
 >> Khuôn dạng: 
->>> ```
+>>> 
 op: 0010 00
 rs: 00 000
 rt: 0 1001
 operand/offset : 0000 0000 0000 0101 (=5)
-```
+
+
 
 ** => Kết quả đúng khuôn dạng. **
 
