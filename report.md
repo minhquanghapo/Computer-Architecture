@@ -93,32 +93,32 @@ case_1 thực hiện a=a-1, $s2 bị giảm đi 1 đơn vị.
 
 #### Assignment 4: Modify the Assignment 1, so that the condition tested is
 a. i <j
-![](./assign-image/1.png)
+![](/assign-image/1.png)
 
 b. i >= j
-![](./assign-image/2.png)
+![](/assign-image/2.png)
 
 c. i+j <= 0
 
-![](./assign-image/3.png)
+![](/assign-image/3.png)
 d. i+j > m+n
-![](./assign-image/4.png)
+![](/assign-image/4.png)
 
 #### Assignment 5
 
 Modify the Assignment 2, so that the condition tested at the end of the loop is
 a. i < n
 
-![](./assign-image/5.png)
+![](/assign-image/5.png)
 b. i <= n
-![](./assign-image/6.png)
+![](/assign-image/6.png)
 c. sum >= 0
-![](./assign-image/7.png)
+![](/assign-image/7.png)
 d. A[i] == 0
-![](./assign-image/8.png)
+![](/assign-image/8.png)
 
 #### Assignment 6: Using all of above instructions and statements, create a new project to implement
 this function: find the element with the largest absolute value in a list of integers.
 Assuming that this list is store in an integer array and we know the number of elements in it.
 
-![](./assign-image/9.png)
+![](/assign-image/9.png)
