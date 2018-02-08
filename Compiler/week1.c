@@ -34,7 +34,7 @@ void deleteLetersNotWord(char *str)
 	}
 }
 
-int powerOf(i, n)
+long powerOf(i, n)
 {
 	int j;
 	if(n == 0) return 1;
@@ -46,18 +46,16 @@ int powerOf(i, n)
 	return powi;
 }
 
-int hashString(char *str)
+unsigned long hashString(char *str)
 {
-	printf("%s\n", str);
 	int length = strlen(str);
 	int i;
-	int hashNumber, sum = 0;
+	unsigned long hashNumber, sum = 0;
 	for(i = 0; i < length; i++)
 	{
 		sum += (str[i]) * powerOf(26, i);
 	}
 	hashNumber = sum % MAX_ARRAY;
-	printf("%s: %d \n", str, hashNumber);
 	return hashNumber;
 }
 
@@ -85,7 +83,6 @@ void search(char *str)
 		insertToHashArray(str, hashNumber);
 	}
 }
-
 
 int main()
 {
@@ -115,11 +112,16 @@ int main()
 	}
 
 	int i;
+	int number = 0;
 	for(i = 0; i < MAX_ARRAY; i++)
 	{
 		if(hashArr[i].count > 0)
+		{	
 			printf("%s: %d\n", hashArr[i].str, hashArr[i].count);
+			number++;
+		}
 	}
+	printf("Number of words: %d\n", number);
 
 	return 0;
 }
