@@ -2,7 +2,7 @@
 ### Assignment 1 : 
 *Create a new project to implement the Home Assigment 1. Compile and upload to simulator. Initialize two operands (register $s1 and $s2), run this program step by step, observe memory and registers value*
 
-**Resolve**
+** Resolve **
 ```
 .text
 li $s1,0x7fffffff #set s1 = greatest positive number 
