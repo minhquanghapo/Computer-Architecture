@@ -2,7 +2,7 @@
 ### Assignment 1 : 
 *Create a new project to implement the Home Assigment 1. Compile and upload to simulator. Initialize two operands (register $s1 and $s2), run this program step by step, observe memory and registers value*
 
-** Resolve **
+**Resolve**
 ```
 .text
 li $s1,0x7fffffff #set s1 = greatest positive number 
@@ -37,7 +37,7 @@ EXIT:
 
 > s0 = 0x 1 2 3 4 5 6 7 8
 
-** Resolve **
+**Resolve**
 ```
 .text
 
@@ -63,7 +63,7 @@ andi  $t0,$s0,0
 processor instructions which need to be converted to real-instructions of MIPS. Re-write the following pseudo instructions using real-instructions understood by MIPS processors:*
 
 
-** Resolve **
+**Resolve**
 ```
 #Abs
 li $s1,0xfffffffe
@@ -99,7 +99,7 @@ li $s3,3
 ### Assignment 4
 *To dectect overflow in additional operation, we also use other rule than the one in Assignment 1. This rule is: when add two operands that have the same sign, overflow will occur if the sum doesn’t have the same sign with either operands. You need to use this rule to write another overflow detection program*
 
-** Resolve **
+**Resolve**
 
 ```
 .text
@@ -119,7 +119,7 @@ EXIT:
 ### Assignment 5
 *Write a program that implement multiply by a small power of 2. (2, 4, 8, 16, etc for example).*
 
-** Conclusions **
+**Conclusions**
 *Before you pass the laboratory exercise, think about the questions below:*
 
 * What is the difference between SLLV and SLL instructions?
