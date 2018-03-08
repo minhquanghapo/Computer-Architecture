@@ -1,4 +1,4 @@
-WEEK 5
+# WEEK 5
 Assignment 1: Create a new project to implement the program in Home Assignment 1. Compile and upload to simulator. Run and observe the result. Go to data memory section, check how test string are stored and packed in memory. 
 ```
 #Laboratory Exercise 5, Home Assignment 1 
