@@ -51,6 +51,7 @@ mspfx_end:
 
 ### Assignment2
 *Create a new project to implement procedure in Home Assignment 2. Add code the main program and initialize data for the integer list. Compile and upload to simulator. Run this program step by step, observe the process of explore each element of the integer list using pointer updating method.*
+
 `CODE`
 ```angular2html
 .data
